@@ -2,8 +2,17 @@
     go to GitHub and create a new repository, name the repository"basic_repo"
 
  2.Create a local repository also called basic_repo
- 
+    git_projects:% git init basic_repo
+
  3.Create some files inside your local repo and add some content to them
+    git_projects:% cd basic_repo
+    basic_repo:% touch index.html style.css simple.txt
+
  4.Add, commit, and push these changes to GitHub
+    basic_repo:% git add .                                                                <master ✗>
+    basic_repo:% git commit -m"create index.html style.css and simple.txt."               <master ✗>
+
  5.Make some more changes to the local copy of your file and push them to GitHub
+    git remote add origin https://github.com/CcWang/basic_repo.git
+    git push -u origin master
  6.Go to your GitHub account and see your new repo and the changes you've made
