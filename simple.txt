@@ -1,0 +1,9 @@
+ 1.Create a new repo on GitHub and call it basic_repo
+    go to GitHub and create a new repository, name the repository"basic_repo"
+
+ 2.Create a local repository also called basic_repo
+ 
+ 3.Create some files inside your local repo and add some content to them
+ 4.Add, commit, and push these changes to GitHub
+ 5.Make some more changes to the local copy of your file and push them to GitHub
+ 6.Go to your GitHub account and see your new repo and the changes you've made
