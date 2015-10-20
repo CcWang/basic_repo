@@ -12,7 +12,13 @@
     basic_repo:% git add .                                                                <master ✗>
     basic_repo:% git commit -m"create index.html style.css and simple.txt."               <master ✗>
 
- 5.Make some more changes to the local copy of your file and push them to GitHub
     git remote add origin https://github.com/CcWang/basic_repo.git
     git push -u origin master
+ 
+ 5.Make some more changes to the local copy of your file and push them to GitHub
+    basic_repo:% vi simple.txt
+    basic_repo:% git add simple.txt                                                         <master>
+    basic_repo:% git commit -m "adding some content in simple.txt"                        <master ✗>
+    basic_repo:% git push -u origin master                                                <master>
+    
  6.Go to your GitHub account and see your new repo and the changes you've made
